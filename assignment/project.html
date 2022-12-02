@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<style>
+   
+</style>
+
+
+
+
+
+<div style = " background-image:linear-gradient(white,orange,white,orange,white); width : 1200px ;height: 600px;border: solid dark 2px; margin:auto;  border-radius: 5px 2px;margin:10px">
+<h2 style= "padding: 2px; text-align: center; color:darkslategray; "><span class="spinner-grow text-warning"></span><span class="spinner-grow text-white"></span> <span class="spinner-grow text-warning"></span> UI Design Training <span class="spinner-grow text-warning"></span><span class="spinner-grow text-white"></span> <span class="spinner-grow text-warning"></span> </span></h2>
+ 
+<!-- <img src="/ui.png" class="round-circle"><br> -->
+<div class="dropdown" style="width:100px;height:50px; "> 
+<button type="button" style= " width: 180px; height : 50px;position: relative;left:800px ;border:solid darkgrey 2px" class="btn btn-warning" data-bs-toggle ="dropdown" >Click for Topics</button> 
+<ui class="dropdown-menu bg-warning">
+    <li><a href= "https://www.evernote.com/shard/s718/sh/8cd37bae-1013-bfc3-8064-666c2d1120a1/87b6e3b59cce46027592dab25249fcf9" target="_blank"class="dropdown-item"> HTML & HTML advanced</a></li>
+    <li><a href= "https://www.evernote.com/shard/s718/sh/0afab9b2-8208-274e-2afc-d6132e4b6f29/c5aef8e0daa8f20e7aa3397a65b75aa2				" target="_blank"class="dropdown-item"> CSS & CSS advanced</a></li>
+    <li><a href= "https://www.evernote.com/shard/s718/client/snv?noteGuid=d3b554ae-c8c6-1084-3f96-2ff872be6c8f&noteKey=71dcbf808498c4c7c52fd22c203d445a&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs718%2Fsh%2Fd3b554ae-c8c6-1084-3f96-2ff872be6c8f%2F71dcbf808498c4c7c52fd22c203d445a&title=JQuery" target="_blank"class="dropdown-item"> JQUERY</a></li>
+    <li><a href= "https://www.evernote.com/shard/s672/sh/8fcddeeb-9486-ae6c-6073-467ce29cb280/2cb9082b2e5d8a6d3cd814b6521995f4"target="_blank" class="dropdown-item"> REACT</a></li>
+    <li><a href= "https://www.evernote.com/shard/s718/client/snv?noteGuid=cedda9a7-c1b9-a061-1c4c-554a1d67e0bc&noteKey=7ab974149b74aea4d3838b1ba1318c22&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs718%2Fsh%2Fcedda9a7-c1b9-a061-1c4c-554a1d67e0bc%2F7ab974149b74aea4d3838b1ba1318c22&title=Bootstrap%2B5" target="_blank"class="dropdown-item"> BOOTSTRAP</a></li>  
+</ui>
+</div>
+<!-- <button type="button" style= " width: 180px; height : 50px" class="progress" >My Progress</button>  -->
+
+<!--**************Carousel slides code starts here ************-->
+
+<div id="demo" class="carousel slide bg-warning" style="width:500px;height:300px;border-radius:14px ;" data-bs-ride="carousel">
+    <!-- //carousel indicators// -->
+    <div class="container mt-3"> 
+    <div class="carousel-indicators">
+    <button type="button" class="active" data-bs-target="#demo" data-bs-slide-to="0"></button>
+    <button type="button" class="active" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" class="active" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" class="active" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    
+    </div>
+</div>
+    
+    <!-- slideshow /carousel -->
+    <div class="container mt-3"> 
+    <div class="carousel-inner" style="width:500px;height:300px; border-radius:14px">
+        <div class="carousel-item active">
+    <img src="/ui1.webp" alt="ui symbol" style= " width:100%" class="d-block">
+    </div>
+         <div class="carousel-item">
+        <img src="/ui2.png" alt="ui symbol" style= " width:100%" class="d-block">
+        </div>
+    
+        <div class="carousel-item ">
+            <img src="/ui3.png" alt="ui symbol" style= " width:100% ;float:right end" class="d-block">
+        </div>
+    
+        <div class="carousel-item ">
+                <img src="/u4.png" alt="ui symbol" style= " width:100%" class="d-block">
+        </div>
+    </div>
+    
+    <!-- left and right controls (prev ,next) -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev"> 
+    <span class="carousel-control-prev-icon"> </span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next"> 
+        <span class="carousel-control-next-icon"> </span>
+    </button>
+        
+</div > 
+    </div>  
+    <div class="container fluid mt-3">
+    <h4> UI Slides </h4>
+    <button type="button" id="btn5" style="background:burlywood;width:180px;height:50px;border-radius:5px;position :relative;left:750px;bottom: 120px;">Check Progress </button>
+    </div>
+<!--**********Carousel slides code ends here ***********-->
+
+<div class="progress" style=" display :none;border:1px solid black; width:400px;position:relative;left:750px;bottom: 40px; ">
+    <div  class="progress-bar bg-success" style="width:50%; border-radius: 5px; ">Completed 50%   </div> 
+  
+
+</div>
+
+</div>
+</table>
+<footer style="position:relative;left:850px;bottom: 160px;">
+    <adress>
+        <b>Location:</b><br>
+    White Box learning,<br>
+    Dublin,<br>
+    California,<br>
+    USA.
+    
+    
+    </adress>
+    </footer>
+<button id="btn1" style= " background:burlywood;width: 180px; height:50px;position: relative;left:810px;bottom:550px;border-radius: 5px;"> Training Schedule </button>
+<table id="tb1" class="table table-bordered table-striped bg-warning" style="width:400px; height:100px;position:relative;left:600px;bottom:350px;display:none">
+
+
+ <tr>
+    <th>Topic </th>
+    <th>Class no </th>
+    <th>Time </th>
+    </tr>
+
+  <tr> <td> HTML</td> <td> Class 1</td> <td> Sep 9 2022</td> </tr>
+</tr>
+<tr> <td> CSS</td> <td> Class 2</td> <td> Sep 14 2022</td> </tr>
+</tr>
+<tr> <td> jquery</td> <td> Class 3</td> <td> Sep 21 2022</td> </tr>
+</tr>
+
+<tr> <td> bootstrap</td> <td> Class 4</td> <td> oct2 2022</td> </tr>
+</tr>
+
+<tr> <td> React</td> <td> Class 5</td> <td> Oct9 2022</td> </tr>
+</tr>
+
+
+
+
+</div>
+<script src="/project.js">
+</script> 
+
+</body>
+</html>
