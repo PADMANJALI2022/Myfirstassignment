@@ -1,0 +1,127 @@
+
+/* Navbar styling  */
+ul  {
+    display: inline inline-block;
+    color:aquamarine;
+    position: relative;
+    left: 300px;
+}
+#nbar{
+ display :inline-block;
+ padding: 10px;
+ margin: 5px;
+ text-decoration:solid;
+
+ background-color:pink; 
+ 
+ border-radius: 5px;
+ border: 4px;
+ font-size: larger;
+ color:black;
+}
+
+#input{
+    font-size: small;
+    padding: 4px;
+    width:90PX;
+}
+#btn1{
+    border-radius: 5px;
+}
+a{
+    color: black;
+    text-decoration: none ;
+}
+h1 {
+    align-items: center;
+    text-shadow: 4px;
+    border: solid;
+    font-style: italic;
+    border-radius: 20px;
+    background-image:radial-gradient(pink,white);
+    text-decoration-style: double;
+    color:purple;
+    text-align: center;
+}
+#sp1{
+ position: fixed;
+ left:200px;
+ bottom:40px;
+ color: blueviolet;
+ text-decoration: underline;
+ background-color: lightpink;
+}
+/* .special{
+ width:200px;
+ background-color: cornflowerblue;
+
+} */
+#text1{
+   text-align: justify; 
+   width: 400px;
+   display:none;
+   position: fixed;
+   left:450px;
+   top:220px;
+   background-color:greenyellow;
+   padding:5px;
+   border:purple solid;
+   border-radius: 10px;
+   box-shadow: 4px;
+
+}
+#text2{
+  
+    display:none;
+    background-color:greenyellow;
+    padding:5px;
+    border:purple solid;
+    border-radius: 10px;
+ }
+ 
+ #itemlist{
+    background-color:greenyellow;
+    display:none;
+    padding:5px;
+   width:150px;
+   position: fixed;
+   left:460px;
+   top:220px;
+   padding:5px;
+   margin: 5px;
+   border:purple solid 4px;
+   border-radius: 10px;
+   align-items: center;
+ }
+ #rlist{
+    background-color:greenyellow;
+    display:none;
+    padding:5px;
+   width:250px;
+   position: fixed;
+   left:550px;
+   top:220px;
+   padding:5px;
+   margin: 5px;
+   border:purple solid 4px;
+   border-radius: 10px;
+   align-items: center;
+ }
+.item{
+
+ padding: 2px;
+ margin: 2px;
+ text-decoration:solid;
+
+ font-size: small;
+ color:purple; 
+ 
+}
+.rlisk{
+
+    padding: 2px;
+    margin: 2px;
+    text-decoration:solid;
+   
+    font-size: small;
+    color:purple;}
