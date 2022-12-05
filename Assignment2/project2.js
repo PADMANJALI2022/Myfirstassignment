@@ -23,7 +23,7 @@ $('#Menu').hover(function(){
 $('#Recipe').click(function(){ 
     $('#rlist').slideDown()
 })
-$('#Recipe').hover(function(){ 
+$('#Recipe').mouseover(function(){ 
     $('#rlist').slideUp()
 })
 $('#btn1').click(function(){ 
