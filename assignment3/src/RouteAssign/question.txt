@@ -1,0 +1,4 @@
+Use React Routing and create a SPA with 3 routes, 
+first route will have Carousal images, 
+second should have list and keys, and last should have any text/Paragraph data in it. 
+Use these in your project and create any simple routing webpage.
