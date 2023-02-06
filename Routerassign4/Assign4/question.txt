@@ -1,0 +1,8 @@
+ Create Routing using NodeJS, ExpressJS. 
+ You should create 3-4 routes and In anyone route
+  it should render the HTML page - all the contents 
+  which HTML has it should be shown on UI. 
+  If HTML page has form and Input tags and buttons 
+  then, all of them should be rendered on UI. 
+  The other Routes can have any JSON Data in 
+  it
